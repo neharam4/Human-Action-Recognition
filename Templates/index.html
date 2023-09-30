@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Action Classification</title>
+    <style>
+
+        body {
+            background-image: url('static/har.jpg');
+            background-repeat:no-repeat;
+            background-size:cover;
+          }
+          .formbold-btn {
+            font-size: 20px;
+            border-radius: 15px;
+            padding: 14px 25px;
+            width:10%;
+            border: none;
+            font-weight: 500;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            margin-top: 25px;
+          }
+    </style>
+</head>
+<body> 
+    <br>
+    <center><h1 style="color:red;font-size:40px">Human Action Recognition</h1><br>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" accept="image/*"><br>
+        <br>
+        <button class="formbold-btn" type="submit" value="Upload">Predict</button><br>
+    </form>
+</body>
+</html>
